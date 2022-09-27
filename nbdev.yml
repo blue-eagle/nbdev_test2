@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_test2"
+  site-url: "https://blue-eagle.github.io/nbdev-test2/"
+  description: "A sample of how to use nbdev"
+  repo-branch: master
+  repo-url: "https://github.com/blue-eagle/nbdev_test2/"
