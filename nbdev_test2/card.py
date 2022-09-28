@@ -22,7 +22,7 @@ class Card:
 
 # %% ../00_card.ipynb 17
 @patch
-def __eq__(self:Card, a:Card) : return (self.suit, self.rank)==(a.suit, a.rank)
+def __eq__(self:Card, a:Card) : return (self.suit, self.rank)==(a.suit, a.rank) #test
 @patch
 def __lt__(self:Card, a:Card) : return (self.suit, self.rank)<(a.suit, a.rank)
 @patch
